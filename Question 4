@@ -1,0 +1,22 @@
+Bug in the code : X is not defined.
+
+There can be 2 correct solutions for this-
+
+1) 
+function createArrayOfFunctions(y){
+  var arr = [];
+  var x = 5;
+  for (var i = 0; i<y; i++){
+    arr[i] = fuction(x) { return x + i; }
+    }
+    return arr;
+ }
+ 
+ 2)
+ function createArrayOfFunctions(y,x){
+  var arr = [];
+  for (var i = 0; i<y; i++){
+    arr[i] = fuction(x) { return x + i; }
+    }
+    return arr;
+ }
