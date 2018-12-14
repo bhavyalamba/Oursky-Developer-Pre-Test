@@ -1,0 +1,31 @@
+static void Main(string[] args)
+{
+  char[] firstArray = {'A','C','Y','Z'};
+  char[] secondArray = {'A','Z'};
+  
+  bool output = true;
+  if(firstArray.Langth > secondArray.Length)
+  {
+    for(int i = 0; i < secondaryArray.Length; i++)
+    {
+      if(!firstArray.Contains(secondArray[i]))
+      {
+        output = false;
+        break;
+      }
+    }
+  }
+  else
+  {
+    for(int i = 0; i < firstArray.Length; i++)
+    {
+      if(!secondArray.Contains(SecondArray[i]))
+      {
+        output = false;
+        break;
+      }
+    }
+  }
+  Console.WriteLine(output);
+  Console.ReadLine();
+}
